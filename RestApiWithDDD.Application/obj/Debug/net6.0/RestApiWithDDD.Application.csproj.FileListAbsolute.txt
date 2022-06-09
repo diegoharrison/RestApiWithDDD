@@ -1,0 +1,17 @@
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\bin\Debug\net6.0\RestApiWithDDD.Application.deps.json
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\bin\Debug\net6.0\RestApiWithDDD.Application.dll
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\bin\Debug\net6.0\RestApiWithDDD.Application.pdb
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\obj\Debug\net6.0\RestApiWithDDD.Application.csproj.AssemblyReference.cache
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\obj\Debug\net6.0\RestApiWithDDD.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\obj\Debug\net6.0\RestApiWithDDD.Application.AssemblyInfoInputs.cache
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\obj\Debug\net6.0\RestApiWithDDD.Application.AssemblyInfo.cs
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\obj\Debug\net6.0\RestApiWithDDD.Application.csproj.CoreCompileInputs.cache
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\obj\Debug\net6.0\RestApiWithDDD.Application.dll
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\obj\Debug\net6.0\refint\RestApiWithDDD.Application.dll
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\obj\Debug\net6.0\RestApiWithDDD.Application.pdb
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\obj\Debug\net6.0\ref\RestApiWithDDD.Application.dll
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\bin\Debug\net6.0\RestApiWithDDD.Domain.Core.dll
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\bin\Debug\net6.0\RestApiWithDDD.Domain.dll
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\bin\Debug\net6.0\RestApiWithDDD.Domain.Core.pdb
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\bin\Debug\net6.0\RestApiWithDDD.Domain.pdb
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Application\obj\Debug\net6.0\RestApiWithDDD.Application.csproj.CopyComplete

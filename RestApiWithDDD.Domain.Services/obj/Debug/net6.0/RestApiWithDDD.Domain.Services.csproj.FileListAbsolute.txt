@@ -1,0 +1,17 @@
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\bin\Debug\net6.0\RestApiWithDDD.Domain.Services.deps.json
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\bin\Debug\net6.0\RestApiWithDDD.Domain.Services.dll
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\bin\Debug\net6.0\RestApiWithDDD.Domain.Services.pdb
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\bin\Debug\net6.0\RestApiWithDDD.Domain.Core.dll
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\bin\Debug\net6.0\RestApiWithDDD.Domain.dll
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\bin\Debug\net6.0\RestApiWithDDD.Domain.Core.pdb
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\bin\Debug\net6.0\RestApiWithDDD.Domain.pdb
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\obj\Debug\net6.0\RestApiWithDDD.Domain.Services.csproj.AssemblyReference.cache
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\obj\Debug\net6.0\RestApiWithDDD.Domain.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\obj\Debug\net6.0\RestApiWithDDD.Domain.Services.AssemblyInfoInputs.cache
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\obj\Debug\net6.0\RestApiWithDDD.Domain.Services.AssemblyInfo.cs
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\obj\Debug\net6.0\RestApiWithDDD.Domain.Services.csproj.CoreCompileInputs.cache
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\obj\Debug\net6.0\RestApiWithDDD.Domain.Services.csproj.CopyComplete
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\obj\Debug\net6.0\RestApiWithDDD.Domain.Services.dll
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\obj\Debug\net6.0\refint\RestApiWithDDD.Domain.Services.dll
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\obj\Debug\net6.0\RestApiWithDDD.Domain.Services.pdb
+E:\Projects\dotnet\RestApiWithDDD\RestApiWithDDD.Domain.Services\obj\Debug\net6.0\ref\RestApiWithDDD.Domain.Services.dll
