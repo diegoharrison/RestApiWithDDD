@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kt6JpmSyw4AbJ8HqvrXksIHKWwXe7c/5+vmg71WBPS1EFxb1YGlJqFmF3iRmGNBG//PvZzm12wycGtQoPWK2mQ==",
+  "dgSpecHash": "KDrWhmhb9/DMITYtR42iLlVymZBjrQNl+elB43R6te7DIVP9cnKdIS6bZpGQWZa5unlnFGamFNICHOxNjB2iXQ==",
   "success": true,
   "projectFilePath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Infrastructure\\RestApiWithDDD.Domain.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Diego\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\google.protobuf\\3.19.4\\google.protobuf.3.19.4.nupkg.sha512",
     "C:\\Users\\Diego\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

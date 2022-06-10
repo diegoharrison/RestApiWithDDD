@@ -2,6 +2,18 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Autofac/6.4.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.DiagnosticSource": "4.7.1"
+        },
+        "compile": {
+          "lib/net6.0/Autofac.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Autofac.dll": {}
+        }
+      },
       "BouncyCastle.NetCore/1.8.5": {
         "type": "package",
         "compile": {
@@ -487,10 +499,44 @@
         "runtime": {
           "bin/placeholder/RestApiWithDDD.Domain.Core.dll": {}
         }
+      },
+      "RestApiWithDDD.Domain.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RestApiWithDDD.Domain.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RestApiWithDDD.Domain.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RestApiWithDDD.Domain.Services.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Autofac/6.4.0": {
+      "sha512": "tkFxl6wAPuwVhrlN8wuNADnd+k2tv4ReP7ZZSL0vjfcN0RcfC9v25ogxK6b03HC7D4NwWjSLf1G/zTG8Bw43wQ==",
+      "type": "package",
+      "path": "autofac/6.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "autofac.6.4.0.nupkg.sha512",
+        "autofac.nuspec",
+        "icon.png",
+        "lib/net5.0/Autofac.dll",
+        "lib/net5.0/Autofac.xml",
+        "lib/net6.0/Autofac.dll",
+        "lib/net6.0/Autofac.xml",
+        "lib/netstandard2.0/Autofac.dll",
+        "lib/netstandard2.0/Autofac.xml",
+        "lib/netstandard2.1/Autofac.dll",
+        "lib/netstandard2.1/Autofac.xml"
+      ]
+    },
     "BouncyCastle.NetCore/1.8.5": {
       "sha512": "6uxsQw2UXrt82VQAWC2td3oBSJjUZ3P4u4DliagB8wf67KsU53V8sW9xwdF+IwZOOZFR0TCZuv/YKZ2BlrfAag==",
       "type": "package",
@@ -1366,15 +1412,22 @@
       "type": "project",
       "path": "../RestApiWithDDD.Domain.Core/RestApiWithDDD.Domain.Core.csproj",
       "msbuildProject": "../RestApiWithDDD.Domain.Core/RestApiWithDDD.Domain.Core.csproj"
+    },
+    "RestApiWithDDD.Domain.Services/1.0.0": {
+      "type": "project",
+      "path": "../RestApiWithDDD.Domain.Services/RestApiWithDDD.Domain.Services.csproj",
+      "msbuildProject": "../RestApiWithDDD.Domain.Services/RestApiWithDDD.Domain.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Autofac >= 6.4.0",
       "Microsoft.EntityFrameworkCore >= 6.0.5",
       "MySql.Data >= 8.0.29",
       "RestApiWithDDD.Application >= 1.0.0",
       "RestApiWithDDD.Domain >= 1.0.0",
-      "RestApiWithDDD.Domain.Core >= 1.0.0"
+      "RestApiWithDDD.Domain.Core >= 1.0.0",
+      "RestApiWithDDD.Domain.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1415,6 +1468,9 @@
             "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Core\\RestApiWithDDD.Domain.Core.csproj": {
               "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Core\\RestApiWithDDD.Domain.Core.csproj"
             },
+            "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Services\\RestApiWithDDD.Domain.Services.csproj": {
+              "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Services\\RestApiWithDDD.Domain.Services.csproj"
+            },
             "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain\\RestApiWithDDD.Domain.csproj": {
               "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain\\RestApiWithDDD.Domain.csproj"
             }
@@ -1431,6 +1487,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Autofac": {
+            "target": "Package",
+            "version": "[6.4.0, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.5, )"

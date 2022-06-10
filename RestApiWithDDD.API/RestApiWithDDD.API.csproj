@@ -10,4 +10,8 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RestApiWithDDD.Domain.Infrastructure\RestApiWithDDD.Domain.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

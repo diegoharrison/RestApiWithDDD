@@ -31,7 +31,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Infrastructure\\RestApiWithDDD.Domain.Infrastructure.csproj": {
+                "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Infrastructure\\RestApiWithDDD.Domain.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -63,6 +67,335 @@
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
             },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Application\\RestApiWithDDD.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Application\\RestApiWithDDD.Application.csproj",
+        "projectName": "RestApiWithDDD.Application",
+        "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Application\\RestApiWithDDD.Application.csproj",
+        "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Core\\RestApiWithDDD.Domain.Core.csproj": {
+                "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Core\\RestApiWithDDD.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Core\\RestApiWithDDD.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Core\\RestApiWithDDD.Domain.Core.csproj",
+        "projectName": "RestApiWithDDD.Domain.Core",
+        "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Core\\RestApiWithDDD.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain\\RestApiWithDDD.Domain.csproj": {
+                "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain\\RestApiWithDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Infrastructure\\RestApiWithDDD.Domain.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Infrastructure\\RestApiWithDDD.Domain.Infrastructure.csproj",
+        "projectName": "RestApiWithDDD.Domain.Infrastructure",
+        "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Infrastructure\\RestApiWithDDD.Domain.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Application\\RestApiWithDDD.Application.csproj": {
+                "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Application\\RestApiWithDDD.Application.csproj"
+              },
+              "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Core\\RestApiWithDDD.Domain.Core.csproj": {
+                "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Core\\RestApiWithDDD.Domain.Core.csproj"
+              },
+              "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Services\\RestApiWithDDD.Domain.Services.csproj": {
+                "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Services\\RestApiWithDDD.Domain.Services.csproj"
+              },
+              "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain\\RestApiWithDDD.Domain.csproj": {
+                "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain\\RestApiWithDDD.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.29, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Services\\RestApiWithDDD.Domain.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Services\\RestApiWithDDD.Domain.Services.csproj",
+        "projectName": "RestApiWithDDD.Domain.Services",
+        "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Services\\RestApiWithDDD.Domain.Services.csproj",
+        "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Core\\RestApiWithDDD.Domain.Core.csproj": {
+                "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain.Core\\RestApiWithDDD.Domain.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain\\RestApiWithDDD.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain\\RestApiWithDDD.Domain.csproj",
+        "projectName": "RestApiWithDDD.Domain",
+        "projectPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain\\RestApiWithDDD.Domain.csproj",
+        "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\dotnet\\RestApiWithDDD\\RestApiWithDDD.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

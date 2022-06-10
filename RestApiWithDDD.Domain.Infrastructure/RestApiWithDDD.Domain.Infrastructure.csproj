@@ -11,10 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="CrossCutting\IOC\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.4.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.5" />
     <PackageReference Include="MySql.Data" Version="8.0.29" />
   </ItemGroup>
@@ -22,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\RestApiWithDDD.Application\RestApiWithDDD.Application.csproj" />
     <ProjectReference Include="..\RestApiWithDDD.Domain.Core\RestApiWithDDD.Domain.Core.csproj" />
+    <ProjectReference Include="..\RestApiWithDDD.Domain.Services\RestApiWithDDD.Domain.Services.csproj" />
     <ProjectReference Include="..\RestApiWithDDD.Domain\RestApiWithDDD.Domain.csproj" />
   </ItemGroup>
 
